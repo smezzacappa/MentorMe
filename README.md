@@ -1,3 +1,3 @@
 # MentorMe
 
-<img src="/Users/stevenmezzacappa/Desktop/Find">
+<img src="/Users/stevenmezzacappa/Desktop/Find.png">
