@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+   padding: 10px;
+ }
+ #grad-text{
+    background-image: -webkit-linear-gradient(left, #E0F8F7, #fff, #adadad); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #E0F8F7, #fff, #adadad); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #E0F8F7, #fff, #adadad); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #E0F8F7, #fff, #adadad); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right,#E0F8F7, #fff, #adadad); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+ .card{
+   padding: 10px;
+
+ }
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+   box-shadow: 0px 0px 10px black;
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ @media only screen and (max-width : 2000px){
+  #mentor-footer{
+    max-width: auto;
+   height: 45%;
+  }
+ }
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: bottom;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+   
+   #mentor-footer{
+     max-width: auto;
+    height: 45%;
+   }
+ }
+ @media only screen and (max-width: 775px){
+   #mentor-footer{
+     height: 45%;
+     position: absolute;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+   #mentor-footer{
+     max-width: auto;
+     height: 45%;
+     position: absolute;
+
+   }
+ }
+
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+   box-shadow: 0px 0px 10px 0px black;
+ }
+#mentor-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-copyright{
+  height: 20%;
+  
+}
+ 

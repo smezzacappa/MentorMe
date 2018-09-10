@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MentorMe</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">
+        MentorMe</a>
+      <a href="index.html"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="container" id="find">
+    <div class="card">
+      <div class="row">
+        <div class="col center">
+
+          <h1>Find</h1>
+          <br />
+          <select id="state" class="form-control input-lg"  size="1">
+            <option value="" >State</option>
+          </select>
+
+          <br>
+
+          <select id="city" class="form-control input-lg" size="1">
+            <option value="" >City</option>
+          </select>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="page-footer teal" id="mentor-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l7 s12">
+
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">We here at MentorMe strive to help all those who come seeking it. It is
+            our mission to connect you with the right person to help boost your career. Having a mentor can be an
+            amazing experience, and it's always nice to have someone to help you along the way.</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text LinkedIn" href="https://www.linkedin.com/in/steven-mezzacappa" target="_blank"><i
+                  class="fa fa-linkedin">LinkedIn</i></a></li>
+            <li><a class="white-text" href="#!" target="_blank"><i class="fa fa-twitter">Twitter</i></a></li>
+            <li><a class="white-text" href="https://www.github.com/smezzacappa" target="_blank"><i class="fa fa-github">GitHub</i></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p class="text-muted">Made By Steven Mezzacappa</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $('body').bootstrapMaterialDesign();
+    });
+    </script>
+  <script type="text/javascript" src="data.js"></script>
+
+</body>
+
+</html>
