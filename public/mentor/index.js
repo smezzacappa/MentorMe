@@ -17,7 +17,7 @@ const setupMenus = () => {
 		}
 		 
 	    LOCATIONS[selected].forEach(city => {
-		    const cityText = (typeof city === 'string') ? city.toLowerCase() : ''; 
+		    const cityText = (typeof city === 'string') ? city.toUpperCase() : ''; 
 		    citySel.appendChild(new Option(cityText, city));
 	    });
 	};

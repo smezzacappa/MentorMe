@@ -44,11 +44,12 @@
    .parallax-container .section {
      width: 100%;
    }
- @media only screen and (max-width : 2000px){
-  #mentor-footer{
-    max-width: auto;
-   height: 45%;
+ @media only screen and (max-width : 1500px){
+  footer{
+    max-height: 100%;
+    bottom: 100%;
   }
+
  }
  @media only screen and (max-width : 992px) {
    .parallax-container .section {
@@ -58,16 +59,14 @@
    #index-banner .section {
      top: 10%;
    }
-   
-   #mentor-footer{
-     max-width: auto;
-    height: 45%;
+   footer{
+    max-height: 100%;
    }
  }
  @media only screen and (max-width: 775px){
-   #mentor-footer{
-     height: 45%;
-     position: absolute;
+   
+   footer{
+     max-height: 100%;
    }
  }
  
@@ -75,11 +74,9 @@
    #index-banner .section {
      top: 0;
    }
-   #mentor-footer{
-     max-width: auto;
-     height: 45%;
-     position: absolute;
-
+  
+   footer{
+     max-height: 100%;
    }
  }
 
@@ -94,11 +91,8 @@
    margin: 0;
    box-shadow: 0px 0px 10px 0px black;
  }
-#mentor-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+
+
 .footer-copyright{
   height: 20%;
   
