@@ -35,5 +35,8 @@ window.onload = () => {
 	});
 };
  
+button = () => {
+	
+}
  
 

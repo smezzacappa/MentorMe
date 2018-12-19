@@ -2,4 +2,6 @@
 
 start server with `npm start`
 
-<img src="/Users/stevenmezzacappa/Desktop/Find.png">
+![Preview](preview/preview.png)
+![Preview](preview/preview2.png)
+![Preview](preview/preview3.png)

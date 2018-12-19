@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PATH = process.cwd(); // get current working directory of the server script
-const PORT = 3000;
+const PORT = 4000;
 const cityStateData = require(`${PATH}/json/statesAndCities.json`);
 
 // serve static files

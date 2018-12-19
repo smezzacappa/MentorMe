@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/smezzacappa/MentorMe#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "npm": "^6.4.1"
   }
 }

@@ -10,7 +10,10 @@
  nav .brand-logo {
    color: #444;
  }
- 
+ button{
+   margin: 10px;
+    
+ }
  p {
    line-height: 2rem;
    padding: 10px;
